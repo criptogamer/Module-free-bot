@@ -107,7 +107,7 @@ node send_url_bot.js
 ```
 
 
-<h2>Obtener URL con nombre</h2>
+<h2>Obtener URL con nombre de bot</h2>
 
 
 
@@ -118,7 +118,7 @@ const nuevo_modulo = require('./index.js');
 
 (async () => {
 
-  const url = await nuevo_modulo.getBotPublicDataByName('xzybotthyryttty6y');
+  const url = await nuevo_modulo.getBotPublicDataByName('BOT_NAME');
 //  const url_bot = datos_base_datos.url_bot;
 
   console.log('URL BOT:', url);
