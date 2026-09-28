@@ -8,8 +8,23 @@ Crear bot, procesar url via API KEY y con nombre de bot transmitir url de forma 
 
 
 ```bash
-pkg install nodejs mariadb -y
+pkg install nodejs mariadb git -y
 ```
+
+```bash
+git clone https://github.com/criptogamer/Module-free-bot.git
+```
+
+
+```bash
+cd Module-free-bot
+```
+
+
+
+
+
+
 
 ```bash
 npm i mysql2
