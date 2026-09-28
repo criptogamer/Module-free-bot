@@ -7,13 +7,6 @@ Crear bot, procesar url via API KEY y con nombre de bot transmitir url de forma 
 
 ```nodejs
 
-
-
-
-
-
-
-
 const nuevo_modulo = require('./index.js');
 
 (async () => {
@@ -118,5 +111,43 @@ nano send_url_bot.js
 node send_url_bot.js
 
 ```
+
+
+
+
+
+
+```nodejs
+
+
+const nuevo_modulo = require('./index.js');
+
+(async () => {
+
+  const url = await nuevo_modulo.getBotPublicDataByName('xzybotthyryttty6y');
+//  const url_bot = datos_base_datos.url_bot;
+
+  console.log('URL BOT:', url);
+
+
+})();
+
+
+
+```
+
+
+```nodejs
+
+nano get_url.js
+
+```
+
+```nodejs
+node get_url.js
+
+```
+
+
 
 
