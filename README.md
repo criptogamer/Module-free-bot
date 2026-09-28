@@ -41,14 +41,11 @@ process.exit(1);
 
 
 ```bash
-
 nano create_bot.js
-
 ```
 
 ```bash
 node create_bot.js
-
 ```
 
 
@@ -101,15 +98,12 @@ process.exit(1);
 
 
 ```bash
-
 nano send_url_bot.js
-
 ```
 
 
 ```bash
 node send_url_bot.js
-
 ```
 
 
@@ -138,14 +132,11 @@ const nuevo_modulo = require('./index.js');
 
 
 ```nodejs
-
 nano get_url.js
-
 ```
 
 ```nodejs
 node get_url.js
-
 ```
 
 
