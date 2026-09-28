@@ -3,6 +3,18 @@ Crear bot, procesar url via API KEY y con nombre de bot transmitir url de forma 
 
 
 
+
+<h2>Instalación y ejecución</h2>
+
+
+```bash
+pkg install nodejs mariadb -y
+```
+
+```bash
+npm i mysql2
+```
+
 <h2>Crear bot</h2>
 
 ```nodejs
